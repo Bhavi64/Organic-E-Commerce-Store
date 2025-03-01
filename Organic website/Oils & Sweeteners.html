@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <header>
+        <h2>Browse Our Organic Oils & Sweeteners</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+    <div class="product-grid">
+        <!-- Example Product -->
+        <div class="product" data-id="1">
+            <img src="Oil images/Organic Cold-Pressed Coconut Oil.jpg" alt="Organic Cold-Pressed Coconut Oil">
+            <h3>Organic Cold-Pressed Coconut Oil</h3>
+            <p>Price: ₹250 per 250ml</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-id="2">
+            <img src="Oil images/Organic Mustard Oil.jpg" alt="Organic Mustard Oil">
+            <h3>Organic Mustard Oil</h3>
+            <p>Price: ₹150 per 500ml</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-id="3">
+            <img src="Oil images/Organic Honey.jpg" alt="Organic Honey">
+            <h3>Organic Honey</h3>
+            <p>Price:  ₹450 per 500g</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+
+        </section>
+        <script src="script/main.js"></script>
+
+        <section id="sec3">
+            <h2>Elevate Your Flavor</h2>
+        </section>
+</body>
+</html>

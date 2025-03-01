@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <header>
+        <h2>Browse Our Organic Vegetables</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+    <div class="product-grid">
+        <!-- Example Product -->
+        <div class="product" data-id="4">
+            <img src="vegetables images/Organic Spinach.webp" alt="Organic Spinach">
+            <h3>Organic Spinach</h3>
+            <p>Price: ₹50 per bunch</p>
+            <button onclick="addToCart(4)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-id="5">
+            <img src="vegetables images/Organic Tomatoes.webp" alt="Organic Tomatoes">
+            <h3>Organic Tomatoes</h3>
+            <p>Price: ₹40 per kg</p>
+            <button onclick="addToCart(5)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-id="6">
+            <img src="vegetables images/Organic Carrots.jpg" alt="Organic Carrots">
+            <h3>Organic Carrots</h3>
+            <p>Price: ₹60 per kg</p>
+            <button onclick="addToCart(6)">Add to Cart</button>
+        </div>
+
+        </section>
+        <script src="script/main.js"></script>
+
+        <section id="sec3">
+            <h2>Fresh from the Earth</h2>
+        <section>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <header>
+        <h2>Shop Our Organic Grains & Pulses</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+    <div class="product-grid">
+        <!-- Example Product -->
+        <div class="product" data-id="1">
+            <img src="grains images/Organic Whole Wheat Flour.jpg" alt="Organic Whole Wheat Flour">
+            <h3>Organic Whole Wheat Flour</h3>
+            <p>Price: ₹55 per kg</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-id="2">
+            <img src="grains images/Organic Red Lentils (Masoor Dal).jpg" alt="Organic Red Lentils (Masoor Dal)">
+            <h3>Organic Red Lentils (Masoor Dal)</h3>
+            <p>Price: ₹120 per kg</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-id="3">
+            <img src="grains images/Organic Quinoa.jpg" alt="Organic Quinoa">
+            <h3>Organic Quinoa</h3>
+            <p>Price:  ₹450 per kg</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+
+        </section>
+        <script src="script/main.js"></script>
+
+        <section id="sec3">
+            <h2>Purely Nutritious</h2>
+        </section>
+</body>
+</html>

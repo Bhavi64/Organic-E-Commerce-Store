@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <header>
+        <h2>Discover Our Organic Nuts & Dry Fruits"</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+    <div class="product-grid">
+        <!-- Example Product -->
+        <div class="product" data-id="1">
+            <img src="Nuts images/Organic Almonds.jpg" alt="Organic Almonds">
+            <h3>Organic Almonds</h3>
+            <p>Price: ₹850 per kg</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-id="2">
+            <img src="Nuts images/Organic Cashews.jpg" alt="Organic Cashews">
+            <h3>Organic Cashews</h3>
+            <p>Price: ₹900 per kg</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+
+        <div class="product" data-id="3">
+            <img src="Nuts images/Organic Walnuts.jpg" alt="Organic Walnuts">
+            <h3>Organic Walnuts</h3>
+            <p>Price:  ₹1200 per kg</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+
+        </section>
+        <script src="script/main.js"></script>
+
+        <section id="sec3">
+            <h2>Crunch into Health</h2>
+        </section>
+</body>
+</html>
