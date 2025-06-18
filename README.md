@@ -62,6 +62,11 @@ The Organic E-Commerce Store is a static website that displays various categorie
 
 ![Order placed](Images2/Order_Placed.png) 
 
+🙋‍♀️ Author
+Bhavani Hiremath
+Aspiring Front-End Developer
+https://github.com/Bhavi64
+
 
 
 
