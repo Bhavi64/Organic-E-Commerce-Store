@@ -38,7 +38,7 @@ The Organic E-Commerce Store is a static website that displays various categorie
 
 2.Product Catogories
 
-![Product Catogories](Images2/Product catogories.png)
+![Product Catogories](Images2/Product_catogories.png)
 
 3.Products
 
@@ -46,7 +46,7 @@ The Organic E-Commerce Store is a static website that displays various categorie
 
 4.Added to cart
 
-![Added to cart](Images2/Add to cart.png) 
+![Added to cart](Images2/Add_to_cart.png) 
 
 5.Cart Page
 
