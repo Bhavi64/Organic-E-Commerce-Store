@@ -35,6 +35,14 @@ The Organic E-Commerce Store is a static website that displays various categorie
 
 ![Homepage](Images2/Home.png) 
 ![Product Catogories](Images2/Product catogories.png)
+![Products](Images2/Products.png) 
+![Added to cart](Images2/Add to cart.png) 
+![Cart page](Images2/Cart.png) 
+![Checkout page](Images2/Checkout.png) 
+![Order placed](Images2/Order_Placed.png) 
+
+
+
 
 
 
