@@ -32,6 +32,8 @@ The Organic E-Commerce Store is a static website that displays various categorie
 - JavaScript – For interactivity (sliders, navigation, etc.)
 
 📸 Screenshots
+
+
 1.Home Page
 
 ![Homepage](Images2/Home.png) 
